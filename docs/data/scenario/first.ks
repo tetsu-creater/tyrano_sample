@@ -1,46 +1,45 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="喧嘩上等"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+道を歩いていたら、肩が人にぶつかった。[r]
+ぶつかった相手はいかにも悪そうな見た目をしている。[r]
+今に殴ってきそうな形相だ。どうする？[r]
 
-メロスは激怒した。[l][r]
-
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_run] →逃げる [endlink][r]
+[link target=*tag_fight] →殴られる前に殴る [endlink][r]
 [s]
 
-*tag_sleep
-
+*tag_run
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=action.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+思いっきり走った！そして逃げきれた！[r]
+・・・・[r]
+・・・・[r]
+・・・・[l][r]
 
-【 BAD END 】[l][cm]
+あれから１０年がたった。あの時に逃げたという判断をした自分を正しかったのだろうかとふと感じることがある。[r]
+もやもやが残るなぁ。[r]
+【 もやもや 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
-
+*tag_fight
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+[bg storage=sun.jpg time=500]
 
-【 GOOD END 】[l][cm]
+戦った。ぼこぼこにされた。[r]
+・・・・[r]
+・・・・[r]
+・・・・[l][r]
+
+しかし、僕はあの時のことを後悔なんてしちゃいない。あのとき立ち向かった自分の勇気は、今でも僕の自信につながっている。[l][r]
+
+【 後悔なし！ 】[l][cm]
 
 [jump target=*start]
